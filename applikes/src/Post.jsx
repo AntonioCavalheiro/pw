@@ -1,5 +1,8 @@
-function Post(){
-    return <p>ETEC-Cidadedo livro</p>
+export function Post(props) {
+    return (
+        <div>
+            <strong>{props.author}</strong>
+            <p>{props.coment}</p>
+        </div>
+    );
 }
-
-export default Post;
